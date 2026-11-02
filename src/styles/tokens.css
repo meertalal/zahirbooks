@@ -1,0 +1,47 @@
+:root {
+  /* Brand */
+  --zb-brown: #6b3a2a;
+  --zb-brown-deep: #4a2c22;
+  --zb-brown-mid: #8b5a3c;
+  --zb-brown-soft: #a67c52;
+  --zb-cream: #f7f1e8;
+  --zb-cream-dark: #efe6d8;
+  --zb-cream-soft: #fbf7f1;
+  --zb-white: #ffffff;
+  --zb-text: #2b2118;
+  --zb-text-muted: #6b635c;
+  --zb-border: #e6ddd0;
+  --zb-star: #e4b21e;
+  --zb-badge: #d62828;
+  --zb-shadow: 0 8px 24px rgba(43, 33, 24, 0.08);
+
+  /* Typography */
+  --zb-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --zb-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Layout */
+  --zb-container: 1180px;
+  --zb-container-wide: 1280px;
+  --zb-radius: 10px;
+  --zb-radius-sm: 6px;
+  --zb-header-h: 78px;
+
+  /* Spacing */
+  --zb-section-y: 72px;
+  --zb-gutter: 24px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --zb-section-y: 56px;
+    --zb-gutter: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --zb-section-y: 40px;
+    --zb-gutter: 16px;
+    --zb-header-h: 64px;
+  }
+}

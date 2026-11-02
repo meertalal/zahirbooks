@@ -1,0 +1,58 @@
+.zb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--zb-radius-sm);
+  padding: 0.7rem 1.25rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.15s ease;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.zb-btn:active {
+  transform: translateY(1px);
+}
+
+.zb-btn--primary {
+  background: var(--zb-brown);
+  color: var(--zb-white);
+}
+
+.zb-btn--primary:hover {
+  background: var(--zb-brown-deep);
+}
+
+.zb-btn--outline {
+  background: transparent;
+  color: var(--zb-brown);
+  border-color: var(--zb-brown);
+}
+
+.zb-btn--outline:hover {
+  background: var(--zb-brown);
+  color: var(--zb-white);
+}
+
+.zb-btn--ghost {
+  background: transparent;
+  color: var(--zb-brown);
+  padding-inline: 0.35rem;
+}
+
+.zb-btn--dark {
+  background: var(--zb-brown-deep);
+  color: var(--zb-white);
+}
+
+.zb-btn--dark:hover {
+  background: var(--zb-brown);
+}

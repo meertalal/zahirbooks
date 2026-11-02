@@ -1,0 +1,24 @@
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--zb-text-muted);
+  padding: 1rem 0;
+}
+
+.breadcrumbs__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.breadcrumbs a:hover {
+  color: var(--zb-brown);
+}
+
+.breadcrumbs .is-current {
+  color: var(--zb-brown);
+  font-weight: 600;
+}

@@ -1,0 +1,20 @@
+.zb-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--zb-text-muted);
+  font-size: 0.82rem;
+}
+
+.zb-rating__star {
+  color: var(--zb-star);
+}
+
+.zb-rating__value {
+  font-weight: 600;
+  color: var(--zb-text);
+}
+
+.zb-rating__count {
+  color: var(--zb-text-muted);
+}
